@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://<cloud_host>:<cloud_port>/inventorydb
+    url: jdbc:mysql://cap-sg-prd-2.integration.ibmcloud.com:17623/inventorydb
     username: dbuser
     password: Pass4dbUs3R
     jpa:
